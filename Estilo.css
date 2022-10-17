@@ -151,7 +151,7 @@ html,body {
   border: solid 2px white;
 }
 
-@media (min-width: 400px){
+@media (min-width: 500px){
 
   /* .carousel-inner{
     z-index: 1;
