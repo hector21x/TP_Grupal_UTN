@@ -1,0 +1,303 @@
+
+/* REMOVE THIS, USE YOUR OWN  */
+/* .container-fluid{
+  background-color: rgba(68, 199, 192, 0.973);
+} */
+header nav{
+  background-color: rgba(112, 177, 221, 0.973);
+  height: 60px;
+  width: 100%;
+  margin: 0;
+  padding: 0;  
+}
+header div{
+  background-color: rgba(112, 177, 221, 0.973);
+  font-style: italic oblique;
+  margin: .5px .5px;
+  padding: 0px;
+}
+header #titulo{
+  color: azure;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgba(112, 177, 221, 0.973);
+  transition: background-color .5s;
+}
+header #titulo:hover{
+  background-color: rgb(0, 195, 255);
+  border: .5px solid white;
+  text-shadow: 1px 1px 2px black;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header #generos{
+  color: azure;
+  background-color: rgba(112, 177, 221, 0.973);
+  transition: background-color .5s;
+}
+header #generos:hover{
+  background-color: rgb(0, 195, 255);
+  border: .5px solid white;
+}
+header #somos{
+  color: azure;
+  background-color: rgba(112, 177, 221, 0.973);
+  transition: background-color .5s;
+}
+header #somos:hover{
+  background-color: rgb(0, 195, 255);
+  border: .5px solid white;
+}
+header #contacto{
+  color: azure;
+  background-color: rgba(112, 177, 221, 0.973);
+  transition: background-color .5s;
+}
+header #contacto:hover{
+  background-color: rgb(0, 195, 255);
+  border: .5px solid white;
+}
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, Sans-serif;
+    background-color: #070617;
+  }
+  body #portada {
+    background-size: auto;
+    opacity: 1;
+}
+.contenedor_texto{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.texto{
+  position: absolute;
+  color: #ffffff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+}
+#titulo_somos{
+  text-decoration: underline white;
+  font-weight: bold;
+}
+#contenido_somos{
+  text-align: justify;
+  margin: 3%;
+}
+#nosotros {
+  background-size: auto;
+  opacity: 0.3;
+}
+.carousel-control-prev{
+  opacity: 1;
+}
+.carousel-control-next{
+  opacity: 1;
+}
+.imagen{
+  display: flex-column;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 2px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-style: italic;
+  
+}
+.imagen img{
+  border: solid red 2px;
+  justify-content: space-between;
+  margin: 3px 3px 3px 3px;
+  box-sizing: content-box;
+  width: 100%;
+  height: auto;
+}
+.container_1{
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-right: 0;
+  padding-left: 0;
+}
+.estilo_form{
+  display: flex-column;
+  margin-top: 2px;
+  margin-right: 2px;
+  padding: 3px 1px 3px 5px;
+  box-sizing: content-box;
+  background-color: blueviolet;
+  border: solid 2px cornsilk;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bold;
+  color: #ffffff;
+  width: 100%;
+  height: auto;
+}
+.contacto_1 {
+  display: flex-column;
+  justify-content: space-between;
+  margin: 3px 3px 3px 3px;
+  width: 100%;
+  height: auto;
+}
+.contacto_1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin: 3px 3px 3px 3px;
+  border: solid 2px white;
+}
+
+@media (min-width: 400px){
+
+  /* .carousel-inner{
+    z-index: 1;
+  }
+  .navbar-nav{
+    z-index: 2;
+  } */
+  .container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .imagen{
+    width: 320px;
+    height: auto;
+  }
+  .imagen img{
+    width: 320px;
+    height: auto;
+  }
+  .container_1{
+    display: flex;
+    justify-content: center;
+  }
+  .estilo_form{
+    width: 370px;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .contacto_1{
+    width: 370px;
+    height: auto;
+  }
+  .contacto_1 img{
+    width: 370px;
+    height: auto;
+  }
+}
+
+  .dummy_page {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(68, 199, 192, 0.973);
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px 0px;
+  }
+  /* STYLES SPECIFIC TO FOOTER  */
+  .footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: #070617;
+  }
+  .footer .col {
+    width: 190px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+  }
+  .footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: rgba(255,255,255,0.2);
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+  }
+  .footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .col ul li {
+    color: #999999;
+    font-size: 12px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+  }
+  .social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+  }
+  #especial:hover{
+    filter: opacity(0.5) drop-shadow(0 0 0 rgb(255, 166, 0));
+  }
+  .footer .col ul li:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+  .clearfix {
+    clear: both;
+  }
+  @media only screen and (min-width: 1280px) {
+    .contain {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  @media only screen and (max-width: 1139px) {
+    .contain .social {
+      width: 1000px;
+      display: block;
+    }
+    .social h1 {
+      margin: 0px;
+    }
+  }
+  @media only screen and (max-width: 950px) {
+    .footer .col {
+      width: 33%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+      .footer .col {
+        width: 50%;
+      }
+      .footer .col h1 {
+        font-size: 14px;
+      }
+      .footer .col ul li {
+        font-size: 13px;
+      }
+  }
+  @media only screen and (max-width: 340px) {
+    .footer .col {
+      width: 100%;
+    }
+  }
